@@ -1,0 +1,25 @@
+[project]
+name = "ai-customer-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "asyncmy>=0.2.11",
+    "bcrypt==4.1.2",
+    "langchain>=1.2.10",
+    "langchain-chroma>=1.1.0",
+    "passlib[bcrypt]>=1.7.4",
+    "pydantic-settings>=2.13.1",
+    "python-dotenv>=1.2.1",
+    "python-jose[cryptography]>=3.5.0",
+    "python-multipart>=0.0.22",
+    "sqlalchemy[asyncio]>=2.0.46",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=0.2.0",
+    "mcp>=1.26.0",
+    "langchain-mcp-adapters>=0.2.1",
+    "dashscope>=1.25.14",
+]
